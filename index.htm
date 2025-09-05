@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Finder Game</title>
+    <title>Color Match Game</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
@@ -199,7 +199,7 @@
 </head>
 <body>
     <div class="game-container">
-        <h1>Color Finder Game</h1>
+        <h1>Color Match Game</h1>
         <select id="difficultySelect">
             <option value="beginner">Beginner (3x2, 2-3 matches, 3 colors: RGB)</option>
             <option value="easy">Easy (4x3, 3-4 matches, 3 colors: RGB)</option>
@@ -223,8 +223,8 @@
             <option value="pink">Pink</option>
         </select>
         
-        <div id="score">Score: 0 <div id="status">Select a color and difficulty to start!</div></div>
-        
+        <div id="score">Score: 0</div>
+        <div id="status">Select a color and difficulty to start!</div>
         <div class="board" id="board"></div>
     </div>
     <div id="moreModal" class="modal">
